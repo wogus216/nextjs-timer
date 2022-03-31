@@ -1,14 +1,22 @@
 {
   "name": "nextjs-timer",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "major": "npm version major --no-git-tag-version",
+    "minor": "npm version minor --no-git-tag-version",
+    "patch": "npm version patch --no-git-tag-version"
   },
   "dependencies": {
+    "@emotion/css": "^11.7.1",
+    "@emotion/react": "^11.8.2",
+    "@emotion/server": "^11.4.0",
+    "@emotion/styled": "^11.8.1",
+    "@mui/material": "^5.5.3",
     "next": "12.1.4",
     "react": "18.0.0",
     "react-dom": "18.0.0"
